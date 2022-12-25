@@ -1,0 +1,250 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*header start*/
+    .navbar-brand {
+        width: 70%;
+    }
+    .menu {
+        text-align: right;
+    }
+    .menu .nav_link {
+        margin-right: 5px !important; 
+        font-size: 16px;
+        text-align: right;
+    }
+
+    .login_btn {
+        margin-left: 0 !important;
+        margin-bottom: 5px;
+        text-align: center;
+        color: white !important;
+        font-weight: 700 !important;
+        background-color: var(--primary-color) !important;
+        border: 2px solid var(--primary-color) !important;
+        display: block !important;
+        width: 10% !important;
+        transition: .3s !important;
+    }
+    .fa-circle-user {
+        top: 19px;
+    }
+    /*header end*/
+    
+    /*banner start*/
+    .banner {	
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .b_text h1 {
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .search_bar .fa-search {
+        display: none;
+    }
+    /*banner end*/
+    
+    /*best seller start*/
+    section {
+        margin: 80px 0;
+    }
+    .h_section {
+        margin-bottom: 50px;
+    }
+    
+    /*best seller end*/
+    /*offer start*/
+    .offer_text h1 {
+        font-size: 58px;
+    }
+    .offer_text h3 {
+        font-size: 20px;
+    }
+    
+    .shop_btn {
+        margin-bottom: 30px !important;
+    }
+    /*offer end*/
+    /*footer start*/
+    .f_top {
+        padding: 45px 0 40px;
+    }
+    .logo2 {
+        margin: 0 auto;
+    }
+    /*footer end*/
+    
+    
+    
+    }
+    
+    /*Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /*header start*/
+    .logo_svg {
+        width: 55%;
+    }
+    .menu {
+        text-align: right !important;
+    }
+    .menu .nav_link {
+        margin-right: 6px !important; 
+        font-size: 16px;
+    }
+
+    .fa-circle-user {
+        top: 22px;
+    }
+    /*header end*/
+    
+    /*banner start*/
+    .banner {	
+        padding-top: 0;
+    }
+    
+    .b_text h1 {
+        margin-top: 0;
+        font-size: 30px;
+    }
+    /*banner end*/
+    
+    /*best seller start*/
+    section {
+        margin: 80px 0;
+    }
+    .h_section {
+        margin-bottom: 50px;
+    }
+    /*best seller end*/
+    
+    /*offer start*/
+    .offer_text h1 {
+        font-size: 58px;
+    }
+    .offer_text h3 {
+        font-size: 20px;
+    }
+    /*offer end*/
+    
+    /*footer start*/
+    .f_top {
+        padding: 65px 0 40px;
+    }
+    /*footer end*/
+    
+    
+    
+    }
+    
+    /*Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+    
+    /*header start*/
+    .logo_svg {
+        width: 60%;
+    }
+    .menu {
+        text-align: right !important;
+    }
+    .nav_link {
+        margin-right: 8px !important; 
+        font-size: 18px;
+    }
+
+    /*header end*/
+    
+    /*banner start*/
+    .banner {	
+        padding-top: 0;
+    }
+    
+    .b_text h1 {
+        margin-top: 0;
+        font-size: 38px;
+    }
+    .search_bar .form-input {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .search_bar .fa-search {
+        left: 35px;
+    }
+    .search_bar span {
+        right: 35px;
+    }
+    /*banner end*/
+    
+    /*best seller start*/
+    section {
+        margin: 80px 0;
+    }
+    .h_section {
+        margin-bottom: 60px;
+    }
+    /*best seller end*/
+    
+    /*offer start*/
+    .offer_text h1 {
+        font-size: 75px;
+    }
+    /*offer end*/
+    
+    /*footer start*/
+    .f_top {
+        padding: 75px 0 40px;
+    }
+    /*footer end*/
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    /*Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    /*banner start*/
+    .banner {	
+        padding-top: 0;
+    }
+    
+    .b_text h1 {
+        font-size: 50px;
+    }
+    /*banner end*/
+    
+    /*best seller start*/
+    section {
+        margin: 100px 0;
+    }
+    .h_section {
+        margin-bottom: 80px;
+    }
+    
+    /*best seller end*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    /*X-Large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+    }
+    
+    /*XX-Large devices (larger desktops, 1400px and up)*/
+    @media (min-width: 1400px) {
+    
+    }

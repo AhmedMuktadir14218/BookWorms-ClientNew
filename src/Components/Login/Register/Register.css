@@ -1,0 +1,217 @@
+
+.form-control, .form__input{
+    margin-bottom: 5px;
+	border: 2px solid var(--primary-color) !important;
+	display: block !important;
+	width: 100% !important;    
+	font-size: 18px;
+	border-radius: 25px;
+	transition: .3s;	
+    padding: 0.375rem 0.75rem;
+}
+
+
+:root {
+	--primary-color: #523e27;
+	--secondary-color: #000;
+/* --bg-color: #e0dcd2 !important;*/
+	--bg-color: #fff !important;
+   --footer-color: #e0dcd2;   
+   --flogo-color: #fff;
+}
+/* .login {
+    height: 100vh !important;
+	background-image: url(/public/images/login_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+.w-20 {
+	width: 150px !important;
+}
+
+.login_box {
+	font-size: 16px;
+	/* position: absolute; */
+	/* top: 50%; */
+	/* left: 50%; */
+	/* transform: translate(-50%, -50%); */
+	background-color: ghostwhite;
+	border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    margin: 5px 0 50px;
+}
+
+.s_login {
+    margin-top: 10px !important;
+}
+
+.login_box img {
+	border-radius: 10px 0 0 10px;
+}
+
+.logo2 {
+	display: block;
+	margin-bottom: 20px;
+}
+.logo2 img {
+	width:50% !important;
+}
+.notify {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.u_loggedin:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.u_loggedin:focus {
+	box-shadow: none;
+}
+
+.login_btn {
+	margin-left: 0 !important;
+    margin-bottom: 5px;
+    text-align: center;
+	color: white !important;
+	font-weight: 700 !important;
+	background-color: var(--primary-color) !important;
+	border: 2px solid var(--primary-color) !important;
+	display: block !important;
+	width: 100% !important;
+	transition: .3s !important;
+}
+
+.l_header {
+    font-family: Roboto-Bold;
+    font-size: 30px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.login_btn:hover, .signup_btn:hover {
+	color: #000;
+	background-color: transparent;
+	border: 2px solid #000;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.u_pass, .s_pass {
+	position: relative;
+	padding-right: 35px;
+}
+
+.form-control{
+    margin-bottom: 5px;
+	border: 2px solid var(--primary-color) !important;
+	display: block !important;
+	width: 100% !important;    
+	font-size: 18px;
+	border-radius: 8px;
+	transition: .3s;	
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+
+
+
+/*sign up*/
+.signup_form {
+	width: 800px;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*sign up*/
+    .signup_form {
+        width: 100% !important;
+    }
+
+    .login_btn {
+        padding: 2px 5px !important;
+        font-size: 16px;
+    }
+
+	.form-control, .form__input{
+		font-size: 16px;
+		padding: 2px 15px;
+	}
+
+	.c_btn {
+		width: 100px !important;
+		margin-left: auto !important;
+	}
+
+    
+    }
+    
+    /*Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /*sign up*/
+    .signup_form {
+        width: 500px;
+    }
+	.login_box {
+        width: 75%;
+		margin: 10px auto 50px;
+    }
+	.c_btn {
+		width: 100px !important;
+		margin-left: auto !important;
+	}
+
+    
+    
+    }
+    
+    /*Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+       
+    /*sign up*/
+    .signup_form {
+        width: 600px;
+    }
+	.login_box {
+        width: 75%;
+		margin: 10px auto 50px;
+    }
+	.c_btn {
+		width: 100px !important;
+		margin-left: auto !important;
+	}
+    
+    
+    
+    }
+    
+    /*Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+/*     
+    .login_box {
+        width: 100%;
+		margin: 10px auto 50px;
+    } */
+    
+    
+    }
+    
+    /*X-Large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+    }
+    
+    /*XX-Large devices (larger desktops, 1400px and up)*/
+    @media (min-width: 1400px) {
+    
+    }

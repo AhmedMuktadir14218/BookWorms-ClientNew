@@ -1,0 +1,16 @@
+.add_form input, .add_form textarea {
+    margin-bottom: 5px;
+	width: 100% !important;    
+	font-size: 18px;
+	transition: .3s;	
+    padding: 5px 10px;
+}
+
+.add_form .login_btn {
+    border-radius: 0;
+}
+
+.heading {
+	font-weight: 600;
+
+}

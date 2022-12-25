@@ -1,0 +1,76 @@
+:root {
+	--primary-color: #523e27;
+	--secondary-color: #000;
+/* --bg-color: #e0dcd2 !important;*/
+	--bg-color: #fff !important;
+   --footer-color: #e0dcd2;   
+   --flogo-color: #fff;
+}
+.dark-mode {
+	--primary-color: #8273ec;
+	--secondary-color: #fff;
+	--bg-color: #000;   
+   --footer-color: #000;
+   --flogo-color: #8273ec;
+
+
+
+}
+
+body {
+	background-color: var(--bg-color) !important;	
+   font-family: Roboto-Regular;
+   color: var(--secondary-color);
+}
+
+
+/*fonts css*/
+@font-face {
+   font-family: Roboto-Regular;
+   src: url(../../../../public/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+   font-family: Roboto-Medium;
+   src: url(../../../../public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+   font-family: Roboto-Bold;
+   src: url(../../../../public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+   font-family: Poppins-Medium;
+   src: url(../../../../public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+   font-family: Poppins-SemiBold;
+   src: url(../../../../public/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+   font-family: Poppins-Bold;
+   src: url(../../../../public/fonts/Poppins-Bold.ttf);
+}
+/*fonts css end*/
+
+.product{
+    /* height: 600px; */
+    border: 1px solid rgba(107, 104, 104, 0.079);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 10px 5px rgba(169, 168, 168, 0.079);
+}
+.b_single_item img {
+  width: 225px !important;
+  height: 225px !important;
+  object-fit: scale-down;
+}
+
+.product h5 {
+  font-size: 18px;
+  font-family: Roboto-Medium;
+}
+
+.product h4 {
+  font-size: 20px !important;
+}
+
