@@ -1,3 +1,2 @@
 ﻿# BookWorms-ClientNew
-add
-liveproject: https://bookworms-51eca.web.app/
+live project: https://bookworms-51eca.web.app/
